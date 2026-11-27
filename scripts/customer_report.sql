@@ -105,3 +105,6 @@ SELECT
         ELSE total_sales / lifespan
     END AS avg_monthly_spend
 FROM customer_aggregation
+GO
+
+select * from dbo.[gold.report_customers];
